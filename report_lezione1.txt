@@ -1,0 +1,131 @@
+📖 Trascrizione del contenuto:
+ Vediamo adesso un ultimo esempio ovvero una dmz, dmzlab, quindi apriamo il file distruzioni e in questo esempio vedremo una semplice dmz per cui ci viene fornita una topologia di rete come segue dove abbiamo una rete interna definita da questo inergetway che possiamo immaginarlo come router nella rete interna che suddivide la dmz dalla lana interna abbiamo un router esterno che poi si connente che da una parte è sposto sulla dmz e dall'altra parte è sposto verso internet, verso lsp, l'internet service provider poi abbiamo una locazione remota che anche questa per andare su internet passa tramite il nostro espi che a sua volta questa locazione, questo remote gate, questo router remoto, vi diamo lo come un router e connesso a una rete remota hanno specifici oquina workstation che a questo indirizzo per cui rifiologando, abbiamo l'innergetway dove abbiamo questi dispositivi connessi, qualcuno solarete uno 0, qualcuno solarete 2.0 abbiamo una dmz su cui ci sono esposti pubblica sull'indirizzo e più pubblico questi servizi, quindi abbiamo web servero in DNS e esposti pubblicamente perché l'indirizzo e più pubblico, qui è 1, 9, 2, 18, barra 0, 1 e questi qui stanno solarete 18, quindi sono esposti pubblicamente quindi adesso quello che faremo è vedere questa rappresentazione attraverso l'utilizzo del laboratorio, accediamo adesso al nostro laboratorio, quindi digitiamo il comando labtender dmzxample, più senti io rimelo adresno lo inseriamo in video e attendiamo qualche secondo che i container vengono avviati in questo caso ci può volere qualche secondo in più perché comunque abbiamo molti container quindi attendiamo, metto il video in pausa e lo riprendo appena finito, ok, pressamente il tuo start del lab e il laboratorio adesso si avviato, come possiamo vedere abbiamo tutto una serie di contenerativi, partiamo da quello definito come innergetway nel nostro disegno questo qua, questo rute rinterno, come possiamo vedere a 30, faccio direte 1,98, 18, 1,9,2,1,6,8 e 1,10, 1,9,8,2,10 andiamo a vedere questo interface, digitiamo il comando IF, IF, FIG e qui anche se abbiamo degli indirizzi p differenti cosa che ci può stare però abbiamo l'ITH0 sull'a198,1817, che in questo caso simboleggia questa, anzi che avere 1,10 non abbiamo detto 1,07,7 e poi dovremmo averne 1 sulla rete 1,1 qualcosa e l'altro 2,1 cosa andiamo a verificare 2,86 e 1,33 quindi anche se gli indirizzi p sono differenti, abbiamo la stessa situazione a questo punto andiamo a vedere l'outergetway per cui l'outergetway IF, FIG e abbiamo un'interfaccia sulla 1,2 e poi sulla 18 abbiamo un'interfaccia infatti sulla 1 qualche cosa e poi sulla rete 18, come possiamo se è come qui, è come qui, l'outergetway sulla 1,8,181,2,1,8,18 parallels, come vediamo se è vero 1,9,8,181,1,8,18,0 quindi esattamente la situazione qui con indirizzi p differenti, poi cosa abbiamo torniamo sulla macchina virtuale, abbiamo il DNS IF, FIG e quindi l'interfaglia di questo punto andiamo a vedere l'outro di questo punto, quindi la situazione qui con indirizzi p differenti, poi cosa abbiamo torniamo sulla macchina virtuale, abbiamo il DNS IF, FIG e sull'1,9,8,181, DNS 1,9,8,181,3 e poi abbiamo anche il web server, vediamo se lo troviamo web server, per quello qui, sulla rete 1,9,8,181,54 quindi questi qui sono sull'arete pubblica, poi abbiamo rimot gateway, quindi possiamo andare a vedere anche gli altri, qui sono i rimot gateway, IF, FIG, 2 interfacie direte, 1 sulla 203 e 1 sulla 1,9,8,1,9,8,203 e poi abbiamo rimot workstation, una rimot workstation, una workstation rimata, ma che sarà sulla rete 203 e come possiamo osservare sulla rete 203 e poi abbiamo VS1, VS2, VS3 che sono rispettivamente queste, VS1, VS2, VS3, quindi anche qui i lindirizzi più EP sarà uno, VS1 sulla rete 1 e gli altri sulla rete 2,1,2,1,2,2,1,2,1,2,1,2 quindi abbiamo a vedere IF, FIG, sulla rete 1, IF, FIG, sulla rete 2 e anche questo è ora il bestra, sulla rete 2 e infatti sulla 2,2,1, ed adesso quello che possiamo fare, qui ad esempio, vedere come è stato imprimentato il routine, quindi inergetwe, il nostro routine interno, digitiamo il comando route. E qui possiamo vedere che tutto il traffico di default passa sulla 1,9818, 1,2, ovvero 1,9818, 1,2, ovvero su Andrafori, uscirà qui, qui è 1,10, usciamiamo 1,2, e poi ci abbiamo invece che tutto il traffico, sulla rete, sulla rete, 2,0, sulla rete 1,9,1,8,1,0,1,8,1,8,1,0, passerà rispettivamente su l'interfaccia 2, quindi su l'interfaccia TiH2 passerà tutto ciò che è destinato all'erete 1,0, quindi qui l'erete 1,0 è questa, quindi questo interfaccia qui è la nostra TiH2, poi abbiamo tutto ciò che sulla 2,0 sulle TiH1, quindi 2,0 questa qui è le TiH1 e poi abbiamo le TiH0 dove ci passerà tutto il traffico di default e della rete, 18, quindi tutto ciò che sulla rete 18 passerà da qui, quindi queste le TiH0, quindi TiH0 e TiH2 e TiH1, e l'analisi può proseguire anche per quest'altro, quindi questo per questo esempio è la realizzazione della semplice dm z.
+
+📘 Analisi AI (simulata):
+
+📌 Riassunto:
+Il contenuto tratta i fondamenti delle reti, concentrandosi sul modello OSI, indirizzamento IP, subnetting, trasmissione dei dati e protocolli.
+
+🧠 Concetti chiave:
+- Modello OSI a 7 livelli
+- IP come protocollo di livello 3
+- Subnet mask e indirizzamento
+- Trasmissione fisica dei bit
+- Protocollo TCP e connessione
+
+❓ Quiz:
+1. Quale livello del modello OSI si occupa della trasmissione fisica dei dati?
+   a) Livello di rete
+   b) Livello trasporto
+   c) Livello fisico ✅
+   d) Livello sessione
+
+2. TCP è:
+   a) Un protocollo senza connessione
+   b) Un'applicazione di rete
+   c) Un protocollo orientato alla connessione ✅
+   d) Un tipo di hardware
+
+3. La subnet mask serve a:
+   a) Proteggere la rete
+   b) Calcolare l'ora locale
+   c) Definire il numero di host nella rete ✅
+   d) Connettere dispositivi Bluetooth
+
+
+🖼️ Riassunto visivo dei frame:
+Frame 000: a screenshot of a computer screen with a text box
+Frame 001: a screenshot of a computer screen with a text box
+Frame 002: a screenshote screen with the text editor
+Frame 003: a screenshot of a diagram with a green arrow pointing to the top of the diagram
+Frame 004: a screenshot of a diagram with a green arrow pointing to the bottom of the diagram
+Frame 005: a screenshot of a diagram with a green arrow pointing to the bottom of the diagram
+Frame 006: a screenshot of a diagram with a green arrow pointing to the bottom of the diagram
+Frame 007: a screenshot of a diagram with a green arrow pointing to the bottom of the diagram
+Frame 008: a screenshot of a diagram with a green arrow pointing to the bottom of the diagram
+Frame 009: a screenshot of a diagram with a green arrow pointing to the center
+Frame 010: a screenshot of a diagram with a diagram in the middle
+Frame 011: a screenshot of a diagram with a diagram in the middle
+Frame 012: a screenshot of a computer screen with a diagram of a network
+Frame 013: a screenshot of a computer screen with a diagram of a network
+Frame 014: a screenshot of a diagram with a diagram in the middle
+Frame 015: a screenshot of a diagram with a green arrow pointing to the top of the diagram
+Frame 016: a screenshot of a diagram with a green arrow pointing to the center
+Frame 017: a screenshot of a diagram with a green arrow pointing to the center
+Frame 018: a screenshot of a diagram with a green arrow pointing to the center of the diagram
+Frame 019: a screenshot of a diagram with a green arrow pointing to the bottom of the diagram
+Frame 020: a screenshot of a diagram with a green arrow pointing to the top of the diagram
+Frame 021: a screenshot of a diagram with a diagram in the middle
+Frame 022: a screenshot of a computer screen with a diagram of a house
+Frame 023: a screenshot of a diagram with a green arrow pointing to the center
+Frame 024: a screenshot of a computer screen with a diagram of a computer
+Frame 025: the linux linux application
+Frame 026: the linux linux application
+Frame 027: the linux linux application
+Frame 028: the linux linux application
+Frame 029: the linux linux application
+Frame 030: the linux application in linux
+Frame 031: the linux application in linux
+Frame 032: a screenshot of a computer screen with a purple background
+Frame 033: a screenshot of a computer screen with a diagram of a computer screen
+Frame 034: a screenshot of a computer screen with a diagram of a computer screen
+Frame 035: a screenshot of a computer screen with a diagram of a computer screen
+Frame 036: a screenshot of a computer screen with a diagram of a computer screen
+Frame 037: a screenshot of a computer screen with a purple background
+Frame 038: the linux application in linux
+Frame 039: the linux application in linux
+Frame 040: a screenshot of a computer screen with a diagram of a computer screen
+Frame 041: a screenshot of a computer screen with a diagram of a computer screen
+Frame 042: a screenshot of a computer screen with a screen showing a diagram of a computer screen
+Frame 043: a screenshot of a computer screen with a purple background
+Frame 044: a screenshot of a computer screen with a diagram of a computer screen
+Frame 045: a screenshot of a computer screen with a diagram of a computer screen
+Frame 046: the screen of the linux application
+Frame 047: the linux application in linux
+Frame 048: a screenshot of a computer screen with a diagram of a computer screen
+Frame 049: a screenshot of a computer screen with a diagram of a computer screen
+Frame 050: a screenshot of a computer screen with a diagram of a server
+Frame 051: a screenshot of a computer screen showing a diagram of a network
+Frame 052: the linux linux application
+Frame 053: the linux application in linux
+Frame 054: a screenshot of a computer screen with a diagram of a network
+Frame 055: the linux application in the linux application
+Frame 056: a screenshot of a computer screen with a diagram of a network
+Frame 057: a screenshot of a computer screen with a diagram of a network
+Frame 058: the linux application in linux
+Frame 059: the linux application in linux
+Frame 060: a screenshot of a computer screen with a diagram of a network
+Frame 061: a screenshot of a computer screen with a diagram of a computer
+Frame 062: the windows 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Frame 063: the linux application in linux
+Frame 064: a screenshot of a computer screen with a diagram of a network
+Frame 065: the windows 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Frame 066: the linux application in linux
+Frame 067: the screenshote screen with the screen showing the screen
+Frame 068: a screenshot of a computer screen with a diagram of a computer screen
+Frame 069: a screenshot of a computer screen with a diagram of a computer screen
+Frame 070: a screenshot of a computer screen with a diagram of a computer screen
+Frame 071: the linux application in linux
+Frame 072: the linux application in linux
+Frame 073: the linux application in linux
+Frame 074: the linux linux application
+Frame 075: the linux linux application
+Frame 076: a screenshot of a computer screen with a purple background
+Frame 077: a screenshot of a computer screen with a purple background
+Frame 078: a screenshot of a computer screen with a diagram of a computer screen
+Frame 079: a screenshot of a computer screen with a diagram of a computer screen
+Frame 080: the linux linux application
+Frame 081: the linux linux application
+Frame 082: the linux linux application
+Frame 083: the linux linux application
+Frame 084: the linux linux application
+Frame 085: the linux linux application
+Frame 086: a screenshot of a computer screen with a diagram of a computer screen
+Frame 087: the linux linux application
+Frame 088: a screenshot of a computer screen with a diagram of a computer screen
+Frame 089: a screenshot of a computer screen with a purple background
+Frame 090: the linux linux application
+Frame 091: a screenshot of a computer screen with a diagram of a computer screen
+Frame 092: a screenshot of a computer screen with a diagram of a server
+Frame 093: a screenshot of a computer screen with a diagram of a computer
+Frame 094: a screenshot of a computer screen with a diagram of a computer
