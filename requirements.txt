@@ -1,0 +1,9 @@
+streamlit
+whisper
+opencv-python
+transformers
+torch
+requests
+python-dotenv
+yt-dlp
+pillow
